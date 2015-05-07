@@ -1,0 +1,1114 @@
+﻿Log file open, 05/06/15 18:25:27
+LogInit:Display: Running engine for game: RoadRunner
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.07-01.25.27:192][  0]LogTaskGraph: Started task graph with 3 named threads and 7 total threads.
+[2015.05.07-01.25.27:268][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.07-01.25.27:281][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.07-01.25.27:290][  0]LogInit: Object subsystem initialized
+[2015.05.07-01.25.27:291][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.07-01.25.27:291][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/RoadRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-01.25.27:291][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.07-01.25.27:291][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/RoadRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-01.25.27:291][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.07-01.25.27:291][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/RoadRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-01.25.27:292][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.07-01.25.27:292][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.07-01.25.27:298][  0]LogInit: Computer: CS210-WS-05
+[2015.05.07-01.25.27:298][  0]LogInit: User: CS210
+[2015.05.07-01.25.27:298][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.05.07-01.25.27:298][  0]LogInit: High frequency timer resolution =3.215263 MHz
+[2015.05.07-01.25.27:298][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.05.07-01.25.27:298][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-01.25.27:298][  0]LogMemory: Process Physical Memory: 49.64 MB used, 49.64 MB peak
+[2015.05.07-01.25.27:298][  0]LogMemory: Process Virtual Memory: 29.55 MB used, 29.56 MB peak
+[2015.05.07-01.25.27:298][  0]LogMemory: Physical Memory: 5996.05 MB used, 16271.58 MB total
+[2015.05.07-01.25.27:298][  0]LogMemory: Virtual Memory: 284.60 MB used, 8388608.00 MB total
+[2015.05.07-01.25.27:349][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2015.05.07-01.25.27:349][  0]LogD3D11RHI: Adapter has 3972MB of dedicated video memory, 0MB of dedicated system memory, and 7879MB of shared system memory, 1 output[s]
+[2015.05.07-01.25.27:349][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.07-01.25.27:357][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.07-01.25.27:367][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.07-01.25.27:420][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.07-01.25.27:472][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.07-01.25.27:472][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.07-01.25.27:562][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.05.07-01.25.29:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.07-01.25.29:994][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.07-01.25.30:048][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.07-01.25.30:112][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/CS210/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.07-01.25.30:112][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/CS210/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.07-01.25.30:112][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/RoadRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.07-01.25.30:112][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.07-01.25.30:241][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.07-01.25.30:252][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CS210/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.07-01.25.30:540][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.07-01.25.30:540][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.07-01.25.30:888][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.07-01.25.31:275][  0]LogWindowsMoviePlayer: Unable to load movie: D:/RoadRunner/Content/Movies/Default_Startup.mp4
+[2015.05.07-01.25.31:437][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.07-01.25.31:437][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.07-01.25.31:460][  0]SourceControl: Info Source control is disabled
+[2015.05.07-01.25.31:460][  0]SourceControl: Info Source control is disabled
+[2015.05.07-01.25.31:460][  0]SourceControl: Info Source control is disabled
+[2015.05.07-01.25.31:468][  0]SourceControl: Info Source control is disabled
+[2015.05.07-01.25.31:543][  0]LogObj: 23971 objects as part of root set at end of initial load.
+[2015.05.07-01.25.31:543][  0]LogUObjectAllocator: 4988936 out of 0 bytes used by permanent object pool.
+[2015.05.07-01.25.31:608][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.05.07-01.25.31:608][  0]LogEngine: Initializing Engine...
+[2015.05.07-01.25.31:612][  0]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2015.05.07-01.25.31:613][  0]LogHMD: Oculus plugin initialized. Version: 4.7.5-2503383+++depot+UE4-Releases+4.7, LibOVR: 0.4.4, built Apr  6 2015, 23:27:46
+[2015.05.07-01.25.31:767][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.07-01.25.31:784][  0]LogInit: FAudioDevice initialized.
+[2015.05.07-01.25.31:788][  0]LogInit: Texture streaming: Enabled
+[2015.05.07-01.25.31:873][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.07-01.25.31:873][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.05.07-01.25.31:873][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.05.07-01.25.31:873][  0]LogAnalytics: SetUserId d86d34d3402a841cf4326b90cfa07967|871743be8dc147e2bc510dfc1f536030|3a315af8-1361-406b-977f-a279fe964dc9
+[2015.05.07-01.25.31:873][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.07-01.25.31:895][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel?Name=Player
+[2015.05.07-01.25.31:895][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel?Name=Player
+[2015.05.07-01.25.31:907][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-01.25.31:907][  0]LogMemory: Process Physical Memory: 286.20 MB used, 295.48 MB peak
+[2015.05.07-01.25.31:907][  0]LogMemory: Process Virtual Memory: 247.05 MB used, 255.89 MB peak
+[2015.05.07-01.25.31:907][  0]LogMemory: Physical Memory: 6171.96 MB used, 16271.58 MB total
+[2015.05.07-01.25.31:907][  0]LogMemory: Virtual Memory: 700.48 MB used, 8388608.00 MB total
+[2015.05.07-01.25.31:907][  0]LogMemory: 
+[2015.05.07-01.25.31:907][  0]Allocator Stats for TBB: (not implemented)
+[2015.05.07-01.25.33:590][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.07-01.25.34:512][  0]LogWorld: Game class is 'MyGameMode_C'
+[2015.05.07-01.25.34:644][  0]LogAIModule: Creating AISystem for world PhysicsLevel
+[2015.05.07-01.25.35:034][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Floor' which is static to it. Aborting.
+[2015.05.07-01.25.35:034][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.25.35:034][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall1' which is static to it. Aborting.
+[2015.05.07-01.25.35:034][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall2' which is static to it. Aborting.
+[2015.05.07-01.25.35:034][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall3' which is static to it. Aborting.
+[2015.05.07-01.25.35:034][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall4' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support1' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support2' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support3' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support4' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.25.35:035][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.25.35:036][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.25.35:036][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.25.35:036][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.25.35:381][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Floor' which is static to it. Aborting.
+[2015.05.07-01.25.35:381][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.25.35:381][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall1' which is static to it. Aborting.
+[2015.05.07-01.25.35:381][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall2' which is static to it. Aborting.
+[2015.05.07-01.25.35:382][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall3' which is static to it. Aborting.
+[2015.05.07-01.25.35:382][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall4' which is static to it. Aborting.
+[2015.05.07-01.25.35:382][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support1' which is static to it. Aborting.
+[2015.05.07-01.25.35:382][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support2' which is static to it. Aborting.
+[2015.05.07-01.25.35:382][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support3' which is static to it. Aborting.
+[2015.05.07-01.25.35:382][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support4' which is static to it. Aborting.
+[2015.05.07-01.25.35:382][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.25.35:382][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.25.35:383][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.25.35:383][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.25.35:383][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.25.35:383][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.25.35:383][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.25.35:383][  0]PIE:Warning: Warning AttachTo: '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.25.35:385][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCPhysicsLevel.PhysicsLevel up for play (max tick rate 0) at 2015.05.06-18.25.35
+[2015.05.07-01.25.35:401][  0]LogWorld: Bringing up level for play took: 0.757085
+[2015.05.07-01.25.35:404][  0]LogInit:Display: Game Engine Initialized.
+[2015.05.07-01.25.35:641][  0]LogLoad: Full Startup: 9.16 seconds (BP compile: 0.33 seconds)
+[2015.05.07-01.25.35:784][  2]LogRenderer:Warning: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2015.05.07-01.25.40:464][516]LogHMD:Warning: Vision Tracking Acquired
+[2015.05.07-01.25.40:484][516]LogRenderer:Warning: Reallocating scene render targets to support 1920x1080 (Frame:518).
+[2015.05.07-01.25.40:631][516]LogRenderer:Warning: Reallocating scene render targets to support 2600x1464 (Frame:519).
+[2015.05.07-01.25.40:765][518]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 415/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.26.43:023][102]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:023][102]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:023][102]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:039][103]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.26.43:077][103]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:077][103]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:077][103]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:117][104]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:117][104]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:117][104]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:157][105]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:157][105]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:157][105]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:198][106]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:198][106]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:198][106]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:237][107]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:237][107]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:237][107]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:276][108]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:276][108]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:276][108]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:317][109]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:317][109]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:317][109]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:357][110]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:357][110]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:357][110]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:400][111]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:400][111]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:400][111]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:436][112]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:437][112]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:437][112]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:463][113]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:463][113]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:463][113]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:503][114]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:503][114]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:504][114]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:543][115]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:543][115]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:543][115]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:584][116]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:584][116]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:584][116]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:623][117]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:623][117]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:624][117]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:664][118]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:664][118]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:664][118]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:703][119]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:703][119]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:704][119]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:743][120]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:744][120]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:744][120]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:783][121]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:783][121]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:784][121]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:803][122]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.26.43:824][122]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:824][122]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:824][122]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:864][123]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:864][123]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:864][123]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:904][124]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:904][124]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:904][124]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:943][125]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:943][125]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:944][125]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:984][126]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:984][126]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.43:984][126]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:023][127]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:023][127]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:024][127]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:064][128]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:064][128]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:065][128]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:103][129]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:104][129]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:104][129]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:144][130]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:144][130]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:144][130]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:183][131]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:183][131]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:183][131]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:224][132]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:224][132]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:224][132]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:264][133]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:264][133]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:264][133]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:304][134]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:304][134]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:304][134]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:343][135]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:343][135]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:343][135]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:383][136]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:384][136]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:384][136]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:398][137]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.26.44:423][137]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:423][137]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:423][137]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:464][138]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:464][138]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:464][138]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:504][139]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:504][139]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:504][139]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:544][140]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:544][140]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:544][140]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:584][141]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:584][141]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:584][141]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:624][142]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:624][142]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:624][142]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:663][143]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:663][143]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:663][143]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:703][144]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:704][144]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:704][144]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:743][145]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:743][145]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:743][145]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:783][146]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:784][146]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:784][146]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:823][147]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:823][147]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:823][147]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:864][148]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:864][148]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:864][148]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:903][149]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:903][149]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:903][149]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:944][150]PIE:Warning: Warning BP_TargetIncrement5.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:944][150]PIE:Warning: Warning BP_TargetIncrement5.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.26.44:944][150]PIE:Warning: Warning BP_TargetIncrement5.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.04:983][725]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.04:983][725]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.04:983][725]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.04:997][726]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.27.05:024][726]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:024][726]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:024][726]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:063][727]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:063][727]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:064][727]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:103][728]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:104][728]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:104][728]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:130][729]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:130][729]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:130][729]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:157][730]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:157][730]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:157][730]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:197][731]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:197][731]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:197][731]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:237][732]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:237][732]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:237][732]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:277][733]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:277][733]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:277][733]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:316][734]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:317][734]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:317][734]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:357][735]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:357][735]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:358][735]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:397][736]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:397][736]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:397][736]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:437][737]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:437][737]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:437][737]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:476][738]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:477][738]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:477][738]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:517][739]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:517][739]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:517][739]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:557][740]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:557][740]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:557][740]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:597][741]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:597][741]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:597][741]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:636][742]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:636][742]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:637][742]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:663][743]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:664][743]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:664][743]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:703][744]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:703][744]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:703][744]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:730][745]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:730][745]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:730][745]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:757][746]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:757][746]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:758][746]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:798][747]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:798][747]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:798][747]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:838][748]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:838][748]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:838][748]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:878][749]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:878][749]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:879][749]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:918][750]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:918][750]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:918][750]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:958][751]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:958][751]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:958][751]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:998][752]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:998][752]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.05:998][752]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:038][753]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:038][753]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:038][753]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:077][754]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:077][754]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:078][754]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:118][755]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:118][755]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:118][755]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:157][756]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:157][756]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:158][756]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:198][757]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:198][757]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:198][757]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:237][758]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:238][758]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:238][758]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:278][759]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:278][759]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:278][759]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:317][760]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:317][760]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:318][760]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:345][761]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:345][761]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:345][761]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:384][762]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:384][762]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:385][762]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:424][763]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:425][763]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:425][763]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:464][764]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:464][764]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:464][764]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:505][765]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:505][765]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:505][765]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:544][766]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:544][766]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:545][766]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:585][767]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:585][767]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:585][767]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:624][768]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:624][768]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:624][768]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:665][769]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:665][769]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:665][769]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:704][770]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:704][770]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:704][770]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:745][771]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:745][771]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:745][771]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:784][772]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:785][772]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:785][772]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:825][773]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:825][773]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:825][773]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:864][774]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:864][774]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:864][774]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:905][775]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:905][775]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:905][775]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:944][776]PIE:Warning: Warning BP_TargetIncrement4.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:944][776]PIE:Warning: Warning BP_TargetIncrement4.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.06:945][776]PIE:Warning: Warning BP_TargetIncrement4.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:691][ 66]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:691][ 66]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:691][ 66]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:708][ 67]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.27.16:730][ 67]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:730][ 67]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:730][ 67]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:770][ 68]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:771][ 68]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:771][ 68]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:810][ 69]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:810][ 69]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:810][ 69]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:837][ 70]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:837][ 70]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:837][ 70]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:863][ 71]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:863][ 71]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:864][ 71]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:890][ 72]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:890][ 72]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:890][ 72]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:918][ 73]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:918][ 73]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:918][ 73]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:957][ 74]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:957][ 74]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:957][ 74]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:997][ 75]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:998][ 75]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.16:998][ 75]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:037][ 76]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:038][ 76]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:038][ 76]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:091][ 77]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:091][ 77]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:091][ 77]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:130][ 78]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:131][ 78]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:131][ 78]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:170][ 79]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:171][ 79]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:171][ 79]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:210][ 80]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:210][ 80]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:210][ 80]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:251][ 81]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:251][ 81]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:251][ 81]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:290][ 82]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:290][ 82]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:290][ 82]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:331][ 83]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:331][ 83]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:331][ 83]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:370][ 84]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:370][ 84]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:371][ 84]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:411][ 85]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:411][ 85]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:411][ 85]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:450][ 86]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:450][ 86]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:450][ 86]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:490][ 87]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:491][ 87]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:491][ 87]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:530][ 88]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:530][ 88]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:531][ 88]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:571][ 89]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:571][ 89]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:572][ 89]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:611][ 90]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:611][ 90]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:612][ 90]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:642][ 91]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.27.17:651][ 91]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:651][ 91]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:651][ 91]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:690][ 92]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:690][ 92]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:690][ 92]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:730][ 93]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:731][ 93]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:731][ 93]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:770][ 94]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:771][ 94]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:771][ 94]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:811][ 95]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:811][ 95]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:811][ 95]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:850][ 96]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:850][ 96]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:850][ 96]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:890][ 97]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:891][ 97]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:891][ 97]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:930][ 98]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:930][ 98]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:931][ 98]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:970][ 99]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:970][ 99]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.17:971][ 99]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:010][100]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:010][100]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:010][100]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:050][101]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:050][101]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:051][101]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:090][102]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:090][102]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:090][102]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:130][103]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:130][103]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:131][103]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:170][104]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:170][104]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:170][104]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:210][105]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:210][105]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:211][105]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:250][106]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:251][106]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:251][106]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:291][107]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:291][107]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:291][107]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:330][108]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:330][108]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:331][108]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:370][109]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:371][109]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:371][109]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:397][110]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:397][110]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:397][110]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:437][111]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:437][111]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:437][111]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:477][112]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:477][112]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:477][112]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:518][113]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:518][113]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:518][113]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:557][114]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:557][114]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:557][114]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:598][115]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:598][115]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:598][115]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:637][116]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:637][116]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.18:637][116]PIE:Warning: Warning BP_TargetIncrement_C_0.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:263][206]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:264][206]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:264][206]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:296][207]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.27.22:318][207]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:318][207]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:318][207]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:356][208]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:357][208]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:357][208]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:398][209]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:398][209]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:398][209]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:437][210]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:437][210]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:437][210]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:491][211]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:491][211]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:491][211]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:544][212]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:544][212]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:544][212]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:597][213]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:597][213]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:598][213]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:637][214]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:637][214]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:637][214]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:690][215]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:691][215]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:691][215]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:730][216]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:730][216]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:730][216]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:770][217]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:770][217]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:771][217]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:810][218]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:810][218]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:810][218]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:864][219]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:864][219]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:864][219]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:917][220]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:917][220]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:917][220]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:957][221]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:957][221]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:957][221]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:997][222]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:997][222]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.22:997][222]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:037][223]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:038][223]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:038][223]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:090][224]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:090][224]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:090][224]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:130][225]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:130][225]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:130][225]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:170][226]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:170][226]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:170][226]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:210][227]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:210][227]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:210][227]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:252][228]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:252][228]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:252][228]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:291][229]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:292][229]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:292][229]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:331][230]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:331][230]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:331][230]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:372][231]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:372][231]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:372][231]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:411][232]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:411][232]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:411][232]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:452][233]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:452][233]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:452][233]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:491][234]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:491][234]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:492][234]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:532][235]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:532][235]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:532][235]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:571][236]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:571][236]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:571][236]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:611][237]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:611][237]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:611][237]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:651][238]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:651][238]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:651][238]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:691][239]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:691][239]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:691][239]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:731][240]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:731][240]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:731][240]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:771][241]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:771][241]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:771][241]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:811][242]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:811][242]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:811][242]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:851][243]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:852][243]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:852][243]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:891][244]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:891][244]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:891][244]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:931][245]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:931][245]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:932][245]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:971][246]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:971][246]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.23:971][246]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:011][247]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:012][247]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:012][247]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:051][248]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:051][248]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:051][248]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:091][249]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:091][249]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:092][249]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:131][250]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:131][250]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:131][250]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:171][251]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:171][251]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:171][251]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:211][252]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring2 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:211][252]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring1 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.27.24:211][252]PIE:Warning: Warning BP_TargetIncrement_C_2.Ring3 SM_Ring has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2015.05.07-01.28.34:544][111]LogPackageName: SearchForPackageOnDisk took   0.092s to resolve PhysicsLevel1.umap
+[2015.05.07-01.28.34:622][112]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve PhysicsLevel1.umap
+[2015.05.07-01.28.34:622][112]LogNet: Browse: /Game/Maps/PhysicsLevel1
+[2015.05.07-01.28.34:622][112]LogLoad: LoadMap: /Game/Maps/PhysicsLevel1
+[2015.05.07-01.28.34:711][112]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C98B80
+[2015.05.07-01.28.34:733][112]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-01.28.34:733][112]LogMemory: Process Physical Memory: 434.31 MB used, 464.84 MB peak
+[2015.05.07-01.28.34:733][112]LogMemory: Process Virtual Memory: 368.60 MB used, 405.30 MB peak
+[2015.05.07-01.28.34:733][112]LogMemory: Physical Memory: 6312.11 MB used, 16271.58 MB total
+[2015.05.07-01.28.34:733][112]LogMemory: Virtual Memory: 881.30 MB used, 8388608.00 MB total
+[2015.05.07-01.28.34:733][112]LogMemory: 
+[2015.05.07-01.28.34:733][112]Allocator Stats for TBB: (not implemented)
+[2015.05.07-01.28.35:373][112]LogWorld: Game class is 'MyGameMode_C'
+[2015.05.07-01.28.35:396][112]LogAIModule: Creating AISystem for world PhysicsLevel1
+[2015.05.07-01.28.35:400][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Floor' which is static to it. Aborting.
+[2015.05.07-01.28.35:400][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.28.35:401][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall1' which is static to it. Aborting.
+[2015.05.07-01.28.35:401][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall2' which is static to it. Aborting.
+[2015.05.07-01.28.35:402][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall3' which is static to it. Aborting.
+[2015.05.07-01.28.35:402][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall4' which is static to it. Aborting.
+[2015.05.07-01.28.35:402][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support1' which is static to it. Aborting.
+[2015.05.07-01.28.35:403][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support2' which is static to it. Aborting.
+[2015.05.07-01.28.35:403][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support3' which is static to it. Aborting.
+[2015.05.07-01.28.35:403][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support4' which is static to it. Aborting.
+[2015.05.07-01.28.35:403][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.28.35:403][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.28.35:404][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.28.35:404][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.28.35:404][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.28.35:404][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.28.35:404][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.28.35:405][112]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.28.35:408][112]LogWorld: Bringing World /Game/Maps/PhysicsLevel1.PhysicsLevel1 up for play (max tick rate 0) at 2015.05.06-18.28.35
+[2015.05.07-01.28.35:409][112]LogWorld: Bringing up level for play took: 0.012296
+[2015.05.07-01.29.48:457][550]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve PhysicsLevel.umap
+[2015.05.07-01.29.48:533][551]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve PhysicsLevel.umap
+[2015.05.07-01.29.48:534][551]LogNet: Browse: /Game/Maps/PhysicsLevel
+[2015.05.07-01.29.48:534][551]LogLoad: LoadMap: /Game/Maps/PhysicsLevel
+[2015.05.07-01.29.48:551][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6D4180
+[2015.05.07-01.29.48:567][551]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-01.29.48:567][551]LogMemory: Process Physical Memory: 470.47 MB used, 475.21 MB peak
+[2015.05.07-01.29.48:567][551]LogMemory: Process Virtual Memory: 406.12 MB used, 412.27 MB peak
+[2015.05.07-01.29.48:567][551]LogMemory: Physical Memory: 6339.88 MB used, 16271.58 MB total
+[2015.05.07-01.29.48:567][551]LogMemory: Virtual Memory: 918.30 MB used, 8388608.00 MB total
+[2015.05.07-01.29.48:567][551]LogMemory: 
+[2015.05.07-01.29.48:567][551]Allocator Stats for TBB: (not implemented)
+[2015.05.07-01.29.50:725][551]LogWorld: Game class is 'MyGameMode_C'
+[2015.05.07-01.29.50:771][551]LogAIModule: Creating AISystem for world PhysicsLevel
+[2015.05.07-01.29.51:161][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Floor' which is static to it. Aborting.
+[2015.05.07-01.29.51:161][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.29.51:161][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall1' which is static to it. Aborting.
+[2015.05.07-01.29.51:162][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall2' which is static to it. Aborting.
+[2015.05.07-01.29.51:162][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall3' which is static to it. Aborting.
+[2015.05.07-01.29.51:162][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall4' which is static to it. Aborting.
+[2015.05.07-01.29.51:162][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support1' which is static to it. Aborting.
+[2015.05.07-01.29.51:162][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support2' which is static to it. Aborting.
+[2015.05.07-01.29.51:162][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support3' which is static to it. Aborting.
+[2015.05.07-01.29.51:162][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support4' which is static to it. Aborting.
+[2015.05.07-01.29.51:163][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.29.51:163][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.29.51:163][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.29.51:163][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.29.51:163][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.29.51:163][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.29.51:163][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.29.51:163][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.29.51:484][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Floor' which is static to it. Aborting.
+[2015.05.07-01.29.51:484][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.29.51:484][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall1' which is static to it. Aborting.
+[2015.05.07-01.29.51:484][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall2' which is static to it. Aborting.
+[2015.05.07-01.29.51:485][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall3' which is static to it. Aborting.
+[2015.05.07-01.29.51:485][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall4' which is static to it. Aborting.
+[2015.05.07-01.29.51:485][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support1' which is static to it. Aborting.
+[2015.05.07-01.29.51:485][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support2' which is static to it. Aborting.
+[2015.05.07-01.29.51:485][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support3' which is static to it. Aborting.
+[2015.05.07-01.29.51:485][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support4' which is static to it. Aborting.
+[2015.05.07-01.29.51:485][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.29.51:486][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.29.51:486][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.29.51:486][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.29.51:486][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.29.51:486][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.29.51:486][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.29.51:486][551]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.29.51:488][551]LogWorld: Bringing World /Game/Maps/PhysicsLevel.PhysicsLevel up for play (max tick rate 0) at 2015.05.06-18.29.51
+[2015.05.07-01.29.51:503][551]LogWorld: Bringing up level for play took: 0.732130
+[2015.05.07-01.30.40:612][892]LogPackageName: SearchForPackageOnDisk took   0.107s to resolve PhysicsLevel1.umap
+[2015.05.07-01.30.40:675][893]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve PhysicsLevel1.umap
+[2015.05.07-01.30.40:675][893]LogNet: Browse: /Game/Maps/PhysicsLevel1
+[2015.05.07-01.30.40:675][893]LogLoad: LoadMap: /Game/Maps/PhysicsLevel1
+[2015.05.07-01.30.40:763][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CCE6D40
+[2015.05.07-01.30.40:774][893]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-01.30.40:774][893]LogMemory: Process Physical Memory: 494.37 MB used, 495.08 MB peak
+[2015.05.07-01.30.40:774][893]LogMemory: Process Virtual Memory: 428.77 MB used, 429.50 MB peak
+[2015.05.07-01.30.40:774][893]LogMemory: Physical Memory: 6365.22 MB used, 16271.58 MB total
+[2015.05.07-01.30.40:774][893]LogMemory: Virtual Memory: 944.05 MB used, 8388608.00 MB total
+[2015.05.07-01.30.40:774][893]LogMemory: 
+[2015.05.07-01.30.40:774][893]Allocator Stats for TBB: (not implemented)
+[2015.05.07-01.30.41:333][893]LogWorld: Game class is 'MyGameMode_C'
+[2015.05.07-01.30.41:354][893]LogAIModule: Creating AISystem for world PhysicsLevel1
+[2015.05.07-01.30.41:359][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Floor' which is static to it. Aborting.
+[2015.05.07-01.30.41:359][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.30.41:359][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall1' which is static to it. Aborting.
+[2015.05.07-01.30.41:360][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall2' which is static to it. Aborting.
+[2015.05.07-01.30.41:360][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall3' which is static to it. Aborting.
+[2015.05.07-01.30.41:361][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall4' which is static to it. Aborting.
+[2015.05.07-01.30.41:361][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support1' which is static to it. Aborting.
+[2015.05.07-01.30.41:361][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support2' which is static to it. Aborting.
+[2015.05.07-01.30.41:362][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support3' which is static to it. Aborting.
+[2015.05.07-01.30.41:362][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support4' which is static to it. Aborting.
+[2015.05.07-01.30.41:362][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.30.41:362][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.30.41:363][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.30.41:363][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.30.41:363][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.30.41:364][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.30.41:364][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.30.41:364][893]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.30.41:369][893]LogWorld: Bringing World /Game/Maps/PhysicsLevel1.PhysicsLevel1 up for play (max tick rate 0) at 2015.05.06-18.30.41
+[2015.05.07-01.30.41:370][893]LogWorld: Bringing up level for play took: 0.015053
+[2015.05.07-01.31.08:867][943]LogPackageName: SearchForPackageOnDisk took   0.082s to resolve PhysicsLevel.umap
+[2015.05.07-01.31.08:922][944]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve PhysicsLevel.umap
+[2015.05.07-01.31.08:922][944]LogNet: Browse: /Game/Maps/PhysicsLevel
+[2015.05.07-01.31.08:923][944]LogLoad: LoadMap: /Game/Maps/PhysicsLevel
+[2015.05.07-01.31.08:948][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E0A1620
+[2015.05.07-01.31.08:961][944]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-01.31.08:961][944]LogMemory: Process Physical Memory: 494.54 MB used, 496.56 MB peak
+[2015.05.07-01.31.08:961][944]LogMemory: Process Virtual Memory: 428.73 MB used, 430.80 MB peak
+[2015.05.07-01.31.08:961][944]LogMemory: Physical Memory: 6370.36 MB used, 16271.58 MB total
+[2015.05.07-01.31.08:961][944]LogMemory: Virtual Memory: 939.23 MB used, 8388608.00 MB total
+[2015.05.07-01.31.08:961][944]LogMemory: 
+[2015.05.07-01.31.08:961][944]Allocator Stats for TBB: (not implemented)
+[2015.05.07-01.31.10:874][944]LogWorld: Game class is 'MyGameMode_C'
+[2015.05.07-01.31.10:916][944]LogAIModule: Creating AISystem for world PhysicsLevel
+[2015.05.07-01.31.11:292][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Floor' which is static to it. Aborting.
+[2015.05.07-01.31.11:292][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.31.11:292][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall1' which is static to it. Aborting.
+[2015.05.07-01.31.11:292][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall2' which is static to it. Aborting.
+[2015.05.07-01.31.11:292][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall3' which is static to it. Aborting.
+[2015.05.07-01.31.11:293][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall4' which is static to it. Aborting.
+[2015.05.07-01.31.11:293][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support1' which is static to it. Aborting.
+[2015.05.07-01.31.11:293][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support2' which is static to it. Aborting.
+[2015.05.07-01.31.11:293][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support3' which is static to it. Aborting.
+[2015.05.07-01.31.11:293][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support4' which is static to it. Aborting.
+[2015.05.07-01.31.11:293][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.31.11:293][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.11:293][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.31.11:294][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.11:294][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.31.11:294][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.11:294][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.31.11:294][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.11:631][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Floor' which is static to it. Aborting.
+[2015.05.07-01.31.11:631][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.31.11:631][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall1' which is static to it. Aborting.
+[2015.05.07-01.31.11:631][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall2' which is static to it. Aborting.
+[2015.05.07-01.31.11:631][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall3' which is static to it. Aborting.
+[2015.05.07-01.31.11:631][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall4' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support1' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support2' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support3' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support4' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.11:632][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.31.11:633][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.11:633][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.31.11:633][944]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.11:634][944]LogWorld: Bringing World /Game/Maps/PhysicsLevel.PhysicsLevel up for play (max tick rate 0) at 2015.05.06-18.31.11
+[2015.05.07-01.31.11:660][944]LogWorld: Bringing up level for play took: 0.744206
+[2015.05.07-01.31.51:811][ 28]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve PhysicsLevel1.umap
+[2015.05.07-01.31.51:867][ 29]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve PhysicsLevel1.umap
+[2015.05.07-01.31.51:867][ 29]LogNet: Browse: /Game/Maps/PhysicsLevel1
+[2015.05.07-01.31.51:867][ 29]LogLoad: LoadMap: /Game/Maps/PhysicsLevel1
+[2015.05.07-01.31.51:941][ 29]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C7F9E40
+[2015.05.07-01.31.51:972][ 29]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-01.31.51:972][ 29]LogMemory: Process Physical Memory: 494.55 MB used, 497.58 MB peak
+[2015.05.07-01.31.51:972][ 29]LogMemory: Process Virtual Memory: 428.63 MB used, 431.73 MB peak
+[2015.05.07-01.31.51:972][ 29]LogMemory: Physical Memory: 6370.83 MB used, 16271.58 MB total
+[2015.05.07-01.31.51:972][ 29]LogMemory: Virtual Memory: 924.80 MB used, 8388608.00 MB total
+[2015.05.07-01.31.51:972][ 29]LogMemory: 
+[2015.05.07-01.31.51:972][ 29]Allocator Stats for TBB: (not implemented)
+[2015.05.07-01.31.52:483][ 29]LogWorld: Game class is 'MyGameMode_C'
+[2015.05.07-01.31.52:505][ 29]LogAIModule: Creating AISystem for world PhysicsLevel1
+[2015.05.07-01.31.52:509][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Floor' which is static to it. Aborting.
+[2015.05.07-01.31.52:509][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.31.52:509][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall1' which is static to it. Aborting.
+[2015.05.07-01.31.52:510][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall2' which is static to it. Aborting.
+[2015.05.07-01.31.52:510][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall3' which is static to it. Aborting.
+[2015.05.07-01.31.52:511][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Wall4' which is static to it. Aborting.
+[2015.05.07-01.31.52:511][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support1' which is static to it. Aborting.
+[2015.05.07-01.31.52:512][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support2' which is static to it. Aborting.
+[2015.05.07-01.31.52:512][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support3' which is static to it. Aborting.
+[2015.05.07-01.31.52:512][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Support4' which is static to it. Aborting.
+[2015.05.07-01.31.52:512][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.31.52:513][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.52:513][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.31.52:513][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.52:514][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.31.52:514][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.52:514][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.31.52:514][ 29]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel1.PhysicsLevel1:PersistentLevel.BP_BuildingBlockMovable_3180.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.31.52:519][ 29]LogWorld: Bringing World /Game/Maps/PhysicsLevel1.PhysicsLevel1 up for play (max tick rate 0) at 2015.05.06-18.31.52
+[2015.05.07-01.31.52:520][ 29]LogWorld: Bringing up level for play took: 0.014891
+[2015.05.07-01.32.48:432][217]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2015.05.07-01.33.03:117][304]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve PhysicsLevel.umap
+[2015.05.07-01.33.03:186][305]LogPackageName: SearchForPackageOnDisk took   0.066s to resolve PhysicsLevel.umap
+[2015.05.07-01.33.03:186][305]LogNet: Browse: /Game/Maps/PhysicsLevel
+[2015.05.07-01.33.03:186][305]LogLoad: LoadMap: /Game/Maps/PhysicsLevel
+[2015.05.07-01.33.03:204][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DB73F60
+[2015.05.07-01.33.03:219][305]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-01.33.03:219][305]LogMemory: Process Physical Memory: 494.61 MB used, 502.11 MB peak
+[2015.05.07-01.33.03:219][305]LogMemory: Process Virtual Memory: 428.79 MB used, 436.20 MB peak
+[2015.05.07-01.33.03:219][305]LogMemory: Physical Memory: 6373.39 MB used, 16271.58 MB total
+[2015.05.07-01.33.03:219][305]LogMemory: Virtual Memory: 929.73 MB used, 8388608.00 MB total
+[2015.05.07-01.33.03:219][305]LogMemory: 
+[2015.05.07-01.33.03:219][305]Allocator Stats for TBB: (not implemented)
+[2015.05.07-01.33.05:264][305]LogWorld: Game class is 'MyGameMode_C'
+[2015.05.07-01.33.05:309][305]LogAIModule: Creating AISystem for world PhysicsLevel
+[2015.05.07-01.33.05:698][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Floor' which is static to it. Aborting.
+[2015.05.07-01.33.05:699][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.33.05:699][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall1' which is static to it. Aborting.
+[2015.05.07-01.33.05:699][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall2' which is static to it. Aborting.
+[2015.05.07-01.33.05:699][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall3' which is static to it. Aborting.
+[2015.05.07-01.33.05:699][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Wall4' which is static to it. Aborting.
+[2015.05.07-01.33.05:699][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support1' which is static to it. Aborting.
+[2015.05.07-01.33.05:699][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support2' which is static to it. Aborting.
+[2015.05.07-01.33.05:700][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support3' which is static to it. Aborting.
+[2015.05.07-01.33.05:700][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Support4' which is static to it. Aborting.
+[2015.05.07-01.33.05:700][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.33.05:700][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.33.05:700][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.33.05:700][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.33.05:700][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.33.05:700][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.33.05:701][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.33.05:701][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.33.06:022][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Floor' which is static to it. Aborting.
+[2015.05.07-01.33.06:022][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Ceilling' which is static to it. Aborting.
+[2015.05.07-01.33.06:022][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall1' which is static to it. Aborting.
+[2015.05.07-01.33.06:022][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall2' which is static to it. Aborting.
+[2015.05.07-01.33.06:022][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall3' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Wall4' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support1' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support2' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support3' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Support4' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall1Top' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FIllWall1Bottom' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall2Top' which is static to it. Aborting.
+[2015.05.07-01.33.06:023][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall2Bottom' which is static to it. Aborting.
+[2015.05.07-01.33.06:024][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall3Top' which is static to it. Aborting.
+[2015.05.07-01.33.06:024][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall3Bottom' which is static to it. Aborting.
+[2015.05.07-01.33.06:024][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall4Top' which is static to it. Aborting.
+[2015.05.07-01.33.06:024][305]PIE:Warning: Warning AttachTo: '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.Root' is not static  (in blueprint "BP_BuildingBlockMovable"), cannot attach '/Game/Maps/PhysicsLevel.PhysicsLevel:PersistentLevel.StartingPlatform2.FillWall4Bottom' which is static to it. Aborting.
+[2015.05.07-01.33.06:026][305]LogWorld: Bringing World /Game/Maps/PhysicsLevel.PhysicsLevel up for play (max tick rate 0) at 2015.05.06-18.33.06
+[2015.05.07-01.33.06:040][305]LogWorld: Bringing up level for play took: 0.731182
+[2015.05.07-01.33.06:638][320]LogHMD:Warning: Lost Vision Tracking
+[2015.05.07-01.36.24:743][279]Closing by request
+[2015.05.07-01.36.24:744][279]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.05.07-01.36.24:924][280]LogHMD: Oculus shutdown.
+[2015.05.07-01.36.24:993][280]LogExit: Preparing to exit.
+[2015.05.07-01.36.25:094][280]LogExit: Game engine shut down
+[2015.05.07-01.36.25:173][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CD91940
+[2015.05.07-01.36.25:173][280]LogExit: Object subsystem successfully closed.
+[2015.05.07-01.36.25:210][280]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (106)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module AutomationWorker (105)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module CharacterAI (104)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module AITestSuite (103)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (100)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (99)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module HTTP (98)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module AnalyticsET (97)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module Analytics (96)
+[2015.05.07-01.36.25:711][280]LogModuleManager: Shutting down and abandoning module ProfilerService (95)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module TaskGraph (94)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module SlateRemote (93)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (92)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module CableComponent (91)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (87)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module UObjectPlugin (86)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (85)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module GitSourceControl (84)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module SourceControl (83)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (82)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module BlankPlugin (81)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.07-01.36.25:857][280]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.07-01.36.25:862][280]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.07-01.36.25:862][280]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.07-01.36.25:863][280]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.07-01.36.25:868][280]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.07-01.36.25:908][280]LogDerivedDataCache: Shutdown
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.07-01.36.25:908][280]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.07-01.36.25:909][280]LogExit: Exiting.
+[2015.05.07-01.36.25:910][280]Log file closed, 05/06/15 18:36:25

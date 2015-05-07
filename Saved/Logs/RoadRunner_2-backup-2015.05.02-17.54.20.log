@@ -1,0 +1,42 @@
+﻿Log file open, 05/02/15 17:54:14
+LogInit:Display: Running engine for game: RoadRunner
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMaze -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.03-00.54.14:764][  0]LogTaskGraph: Started task graph with 3 named threads and 7 total threads.
+[2015.05.03-00.54.14:826][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.03-00.54.14:840][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.03-00.54.14:850][  0]LogInit: Object subsystem initialized
+[2015.05.03-00.54.14:852][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.03-00.54.14:852][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/RoadRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-00.54.14:852][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.03-00.54.14:852][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/RoadRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-00.54.14:852][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.03-00.54.14:852][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/RoadRunner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.03-00.54.14:852][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.03-00.54.14:852][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.03-00.54.14:855][  0]LogInit: Computer: CS210-WS-05
+[2015.05.03-00.54.14:855][  0]LogInit: User: CS210
+[2015.05.03-00.54.14:855][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.05.03-00.54.14:855][  0]LogInit: High frequency timer resolution =3.215263 MHz
+[2015.05.03-00.54.14:855][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.05.03-00.54.14:856][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.03-00.54.14:856][  0]LogMemory: Process Physical Memory: 49.40 MB used, 49.40 MB peak
+[2015.05.03-00.54.14:856][  0]LogMemory: Process Virtual Memory: 29.41 MB used, 29.41 MB peak
+[2015.05.03-00.54.14:856][  0]LogMemory: Physical Memory: 4084.68 MB used, 16271.58 MB total
+[2015.05.03-00.54.14:856][  0]LogMemory: Virtual Memory: 282.82 MB used, 8388608.00 MB total
+[2015.05.03-00.54.14:895][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2015.05.03-00.54.14:895][  0]LogD3D11RHI: Adapter has 3972MB of dedicated video memory, 0MB of dedicated system memory, and 7879MB of shared system memory, 1 output[s]
+[2015.05.03-00.54.14:895][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.03-00.54.14:900][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.03-00.54.14:907][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.03-00.54.14:973][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.03-00.54.15:053][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save 
